@@ -1,1 +1,10 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api
 
+
+xmapi:
+  client:
+    access-key: xm
+    secret-key: asd
