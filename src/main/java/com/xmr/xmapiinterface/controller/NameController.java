@@ -35,7 +35,10 @@ public class NameController {
             throw  new RuntimeException("error");
         }
 
+        String result = "user name: " + user.getUsername();
 
-        return user.getUsername();
+        //usage add
+
+        return result;
     }
 }
